@@ -7,10 +7,15 @@
     <array>
         <dict>
             <key>FullScreen</key>
-            <false/>
+            <true/>
+
+            <key>Icon</key>
+            <data>
+                https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg
+            </data>
 
             <key>IconIsPrecomposed</key>
-            <false/>
+            <true/>
 
             <key>IsRemovable</key>
             <true/>
@@ -19,10 +24,10 @@
             <string>GUST</string>
 
             <key>PayloadDescription</key>
-            <string>Adds the GUST website to the Home Screen.</string>
+            <string>Opens GUST as a full-screen web app.</string>
 
             <key>PayloadDisplayName</key>
-            <string>GUST Web Clip</string>
+            <string>GUST Web App</string>
 
             <key>PayloadIdentifier</key>
             <string>com.example.gust.webclip</string>
@@ -40,7 +45,7 @@
             <integer>1</integer>
 
             <key>Precomposed</key>
-            <false/>
+            <true/>
 
             <key>URL</key>
             <string>https://yourneighborhoodyapper5-hash.github.io/GUST/</string>
@@ -48,10 +53,10 @@
     </array>
 
     <key>PayloadDescription</key>
-    <string>Installs a Home Screen shortcut for the GUST proof of concept.</string>
+    <string>Installs GUST as a full-screen Web Clip.</string>
 
     <key>PayloadDisplayName</key>
-    <string>GUST Web Clip</string>
+    <string>GUST Web App</string>
 
     <key>PayloadIdentifier</key>
     <string>com.example.gust.profile</string>
