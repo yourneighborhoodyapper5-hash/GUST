@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<data>
+			MIID/jCCAmagAwIBAgIIT45YWzFMRoowDQYJKoZIhvcNAQELBQAw
+			HTEbMBkGA1UEAxMSVmVnYSBJS0V2MiBSb290IENBMB4XDTI2MTEx
+			ODExNTIxNVoXDTM2MTExNTExNTIxNVowHTEbMBkGA1UEAxMSVmVn
+			YSBJS0V2MiBSb290IENBMIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+			MIIBigKCAYEAvgZTRmVkm4gxrS+2TNLhx86ECIoNZJr5vf1lzxBh
+			OkZ29B3qkBbxwY/7o3RiiW1IrxclCISd2uP0wzNJSKUIa73gYpiy
+			OOoOHFEiVGD0VUwcB8zVTWzYwvAaE4V8iM+l5UZqERY5Ah4XAAqX
+			JCpFf9n2JPRSNCgMMan2088fIV13UIYpetbiVe3A7AU+g28Jm+8H
+			SE9MM7nJ2legQvuJVtpJ7/66t68L1H2fMHt8u5NR1N20Dvn9bC+d
+			rCNvfO8rbq5I/3zF6sO63+t9RPD8cST/n28AJtwnFZvmjPcVyAvP
+			UiE9BvgSMQMDVPiy0INiJn+ayX2QmPAhlNdPBGvborRXjTIqXxZq
+			gcul54d2sH6yOK4g0Ki1fhOdrGRiOxYlJR7OLt1gERnTjl5R/fZF
+			Ptp5AdEHgxlyK+Ie85p8V7mv6Xcj2yd2UddYmNX1bLNPbGgWaM9b
+			zYtIQg60UssLNZyjStUPJSDjRhmslm6Hs+6CZjXyyEfmyYZQEN/M
+			Db5hAgMBAAGjQjBAMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/
+			BAQDAgEGMB0GA1UdDgQWBBTip7tjlxbz/fpOUzE8hbIZ4Rwf0jAN
+			BgkqhkiG9w0BAQsFAAOCAYEAjA7xV+N6bFRgEJyydJfE4Y78roME
+			2QPuFta5wHvXxtPPkKJOuA4q4HgH3jX4aEoNyMPABOGfSk24CK4U
+			HKXlRUOno0WaxwPeWn7OM+JO1M9tgwWandcFyCDi8m2fU+fx1yqI
+			KQzQxtWIOuLp3/t5jPzK3ts0mw9G8GCAODY0tUwUnIdRQ5wIIQPG
+			NuuTMQi0EKc3vAX0u912Se9urejw6X1q5+/GwbQgO64FxkukXXKM
+			48Un1pu/LYuL+Y9u7mbUua07DveQBrjamIIVBJSw5WULx62dgMYE
+			/AVlJK25+ABKefn1YcmyHhq4Cafp7iDwp2W7wb1BVdA27nuNr+Tp
+			dABl2IHnShFox0O8PKg1l6TDNWUsZPx65tHTZ0cQxL2WO9oR8eYw
+			I/H5uNg25OoS30O2ZmXCtaOd8D8TkA95EDX+wPgy6bMGlBi1f9NC
+			BrGc8RldjcjHzkFWCWYY4IUsI36h6zfCh0Vflo36aiUUh43OKlCh
+			93em4WTdv6kdfjja
+			</data>
+			<key>PayloadDisplayName</key>
+			<string>Vega VPN Root CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.vega.vpn.root</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>120B3F08-E337-4E38-A950-11D49AD31292</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>IKEv2</key>
+			<dict>
+				<key>AuthName</key>
+				<string>sam</string>
+				<key>AuthenticationMethod</key>
+				<string>None</string>
+				<key>ExtendedAuthEnabled</key>
+				<integer>1</integer>
+				<key>LocalIdentifier</key>
+				<string>sam</string>
+				<key>RemoteAddress</key>
+				<string>73.132.230.69</string>
+				<key>RemoteIdentifier</key>
+				<string>73.132.230.69</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Vega VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.vega.vpn.ikev2</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>01422A9C-18D7-4795-973C-3D59DC69C56C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserDefinedName</key>
+			<string>Vega VPN</string>
+			<key>VPNType</key>
+			<string>IKEv2</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>IKEv2 VPN configuration</string>
+	<key>PayloadDisplayName</key>
+	<string>Vega VPN</string>
+	<key>PayloadIdentifier</key>
+	<string>com.vega.vpn.profile</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9121B5EC-986F-48D6-94CE-4A0BF891D83C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
